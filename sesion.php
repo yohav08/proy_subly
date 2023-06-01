@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>sesión</h1>
+    <h1>inicio de sesion</h1>
 </body>
 </html>
