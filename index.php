@@ -14,7 +14,7 @@
         <link href="./startbootstrap-shop-homepage-gh-pages/css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <!-- Navigation-->
+        <!-- Barra de navegación-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="#!">Home</a>
