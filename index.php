@@ -22,15 +22,17 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <!-- <a href="menu.php?op=1"><button type="button">MOSTRAR</button></a> -->
-                        <li class="nav-item"><a class="nav-link" href="./shopping/shopping.php">Compras</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./clients/clients.php">Clientes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./compras/compras.php">Compras</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./clientes/clientes.php">Clientes</a></li>
                     </ul>
                     <form class="d-flex">
-                        <button class="btn btn-outline-dark" type="submit">
-                            <i class="bi-cart-fill me-1"></i>
-                            Carito de compras
-                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                        </button>
+                        <a href="./carito_compras/carrito_compras.php">
+                            <button class="btn btn-outline-dark" type="button">
+                                <i class="bi-cart-fill me-1"></i>
+                                Carito de compras
+                                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                            </button>
+                        </a>
                     </form>
                 </div>
             </div>
@@ -111,7 +113,5 @@
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="./startbootstrap-shop-homepage-gh-pages/js/scripts.js"></script>
     </body>
 </html>
