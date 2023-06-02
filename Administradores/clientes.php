@@ -38,8 +38,8 @@
                             <input type="text" class="form-control" placeholder="Identificación" required>
                         </div>
                         <div class="form-group">
-                            <label>Nombre</label>
-                            <input type="text" class="form-control" placeholder="Nombre" required>
+                            <label>Usuario</label>
+                            <input type="text" class="form-control" placeholder="Usuario" required>
                         </div>
                         <div class="form-group">
                             <label>Correo</label>
@@ -48,6 +48,10 @@
                         <div class="form-group">
                             <label>Contraseña</label>
                             <input type="password" class="form-control" placeholder="Contraseña" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Telefono</label>
+                            <input type="tel" class="form-control" placeholder="Telefono" required>
                         </div>
                     <br>
                         <div class="d-flex justify-content-between">
@@ -87,7 +91,7 @@
         </div>
 
         <!-- Footer-->
-        <footer class="py-5 bg-dark" style="position: fixed;bottom: 0; width: 100%; ">
+        <footer class="py-4 bg-dark" style="position: fixed;bottom: 0; width: 100%; ">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Bryan Sánchez & Yohana Avila</p></div>
         </footer>
         <!-- Bootstrap core JS-->

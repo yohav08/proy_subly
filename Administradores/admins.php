@@ -86,7 +86,7 @@
         </div>
 
         <!-- Footer-->
-        <footer class="py-5 bg-dark" style="position: fixed;bottom: 0; width: 100%; ">
+        <footer class="py-4 bg-dark" style="position: fixed;bottom: 0; width: 100%; ">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Bryan Sánchez & Yohana Avila</p></div>
         </footer>
         <!-- Bootstrap core JS-->

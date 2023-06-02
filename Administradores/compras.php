@@ -33,22 +33,34 @@
                 <div class="card-body">
                     <form class="" action="" method="POST">
                         <div class="form-group">
-                            <label>Identificación</label>
+                            <label>ID</label>
                             <input type="text" class="form-control" placeholder="Identificación" required>
                         </div>
                         <div class="form-group">
-                            <label>Nombre</label>
-                            <input type="text" class="form-control" placeholder="Nombre" required>
+                            <label>Fecha</label>
+                            <input type="date" class="form-control" placeholder="Fecha" required>
                         </div>
                         <div class="form-group">
-                            <label>Correo</label>
-                            <input type="mail" class="form-control" placeholder="Correo@gmail.com" required>
+                            <label>Direccion</label>
+                            <input type="text" class="form-control" placeholder="Direccion" required>
                         </div>
                         <div class="form-group">
-                            <label>Contraseña</label>
-                            <input type="password" class="form-control" placeholder="Contraseña" required>
+                            <label>Ciudad</label>
+                            <input type="text" class="form-control" placeholder="Ciudad" required>
                         </div>
-                    <br>
+                        <div class="form-group">
+                            <label>#Targeta</label>
+                            <input type="text" class="form-control" placeholder="Número de targeta" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Cliente</label>
+                            <input type="text" class="form-control" placeholder="Cliente" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Vendedor</label>
+                            <input type="text" class="form-control" placeholder="Vendedor" required>
+                        </div>
+                        <br>
                         <div class="d-flex justify-content-between">
                             <input style="margin-left: auto; margin-right: auto;" type="submit" value="Agregar" class="col-sm-4 btn btn-primary">
                             <input style="margin-left: auto; margin-right: auto;" type="submit" value="Actualizar" class=" col-sm-4 btn btn-success">
@@ -88,7 +100,7 @@
         </div>
 
         <!-- Footer-->
-        <footer class="py-5 bg-dark" style="position: fixed;bottom: 0; width: 100%; ">
+        <footer class="py-4 bg-dark" style="position: fixed;bottom: 0; width: 100%; ">
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Bryan Sánchez & Yohana Avila</p></div>
         </footer>
         <!-- Bootstrap core JS-->
