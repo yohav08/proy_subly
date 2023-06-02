@@ -11,22 +11,35 @@
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
         <link rel="stylesheet" href="./startbootstrap-shop-homepage-gh-pages/css/style-login.css">
-        <title>Iniciar Sesión</title>
+        <title>Registrarse</title>
     </head>
     <body>
         <div class="sidenav">
             <div class="login-main-text">
-            <h2>Subly-Art<br> Inicio de Sesión</h2>
+            <h2>Subly-Art<br> Registro de Cuenta</h2>
             <p>Inicia sesión o registrate para acceder.</p>
             </div>
         </div>
         <div class="main">
+            
             <div class="col-md-6 col-sm-12">
-            <div class="login-form">
+            <div style="margin-top: 100px;">
                 <form>
                     <div class="form-group">
-                        <label>Usuario</label>
-                        <input type="text" class="form-control" placeholder="Usuario" required>
+                        <label>Identificación</label>
+                        <input type="text" class="form-control" placeholder="Identificación" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Nombre</label>
+                        <input type="text" class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Correo</label>
+                        <input type="mail" class="form-control" placeholder="Correo@gmail.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Teléfono</label>
+                        <input type="tel" class="form-control" placeholder="Teléfono" required>
                     </div>
                     <div class="form-group">
                         <label>Contraseña</label>
@@ -34,11 +47,11 @@
                     </div>
                     <!-- <a href="menu.php?op=1"><button type="button">MOSTRAR</button></a> -->
                     <div class="text-center">
-                        <button type="submit" class="btn btn-black">Iniciar Sesión</button>
+                        <button type="submit" class="btn btn-black">Registrarse</button>
                     </div>
                 </form>
                 <div class="text-center" style="margin-top: 10px;">
-                    <a href="./registro.php"><button class="btn btn-info">Registrarse</button></a>
+                    <a href="./sesion.php"><button class="btn btn-info">Iniciar Sesión</button></a>
                 </div>
             </div>
             </div>
