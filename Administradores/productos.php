@@ -22,8 +22,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <!-- <a href="menu.php?op=1"><button type="button">MOSTRAR</button></a> -->
-                        <li class="nav-item"><a class="nav-link" href="./compras/compras.php">Compras</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./clientes/clientes.php">Clientes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./compras.php">Compras</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./clientes.php">Clientes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./admins.php">Administradores</a></li>                       
                     </ul>
                     <form class="d-flex">
                         <a href="./carito_compras/carrito_compras.php">
