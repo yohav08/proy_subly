@@ -1,0 +1,16 @@
+#! CSS
+# Ignorar todo el contenido de /css (Exceptuando style-login.css)
+/css/*
+!/css/style-login.css
+
+#! JS
+# Ignorar todo el contenido de /js (Exceptuando funciones.js)
+/js/*
+!/js/funciones.js
+
+# Ignorar todo el contenido de /PDF
+/PDF/*
+
+# Ignorar todo el contenido de /sw
+
+/sw/*
