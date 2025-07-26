@@ -8,9 +8,10 @@
 /js/*
 !/js/funciones.js
 
+#! FPDF
 # Ignorar todo el contenido de /PDF
 /PDF/*
 
+#! sw
 # Ignorar todo el contenido de /sw
-
 /sw/*
